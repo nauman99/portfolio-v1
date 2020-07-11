@@ -537,3 +537,10 @@ img {
     right: 10%;
   }
 }
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, var(--first-color));
+  border-radius: 6px;
+}

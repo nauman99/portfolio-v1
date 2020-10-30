@@ -226,7 +226,7 @@ img {
 .home__img {
   position: absolute;
   bottom: -4%;
-  right: -10%;
+  right: 0%;
   z-index: -1;
 }
 /* buttons */
@@ -305,16 +305,16 @@ img {
 }
 
 .skills__html {
-  width: 90%;
-}
-.skills__css {
   width: 80%;
 }
-.skills__java {
+.skills__css {
   width: 75%;
 }
-.skills__python {
+.skills__java {
   width: 70%;
+}
+.skills__python {
+  width: 60%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -474,7 +474,7 @@ img {
       inset 0 0 50px #fff, inset 50px 0 80px #4070f4, inset -50px 0 80px #0ff,
       inset 50px 0 300px #4070f4, inset -50px 0 300px #0ff;
     animation: pulsate 6s linear infinite;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
   .about__text {
     font-size: 22px;
@@ -508,7 +508,7 @@ img {
     animation: pulsate 6s linear infinite;
     position: absolute;
     top: 310%;
-    right: -5%;
+    right: 0%;
     z-index: -1;
   }
   .work__container {
